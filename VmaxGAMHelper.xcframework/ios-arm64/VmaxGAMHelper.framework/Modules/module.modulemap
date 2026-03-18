@@ -1,0 +1,11 @@
+framework module VmaxGAMHelper {
+  umbrella header "VmaxGAMHelper.h"
+  export *
+
+  module * { export * }
+}
+
+module VmaxGAMHelper.Swift {
+  header "VmaxGAMHelper-Swift.h"
+  requires objc
+}
