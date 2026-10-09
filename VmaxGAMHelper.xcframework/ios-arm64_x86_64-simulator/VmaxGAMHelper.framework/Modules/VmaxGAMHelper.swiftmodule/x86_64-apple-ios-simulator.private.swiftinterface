@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VmaxGAMHelper
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VmaxGAMHelper
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Foundation
 import GoogleMobileAds
@@ -68,6 +68,18 @@ extension VmaxGAMHelper.VmaxAdGAMBanner : Vmax.VmaxRefreshableAssetDelegate {
   public func onAdResumed()
   public func onAdComplete()
 }
+extension VmaxGAMHelper.VmaxAdGAMBanner : Vmax.VmaxCarouselAd {
+  public func isCardActive() -> Swift.Bool
+  public func swipeMode() -> Vmax.VmaxCarouselSwipeMode
+  public func isAdLoaded() -> Swift.Bool
+  public func getAdWidth() -> Swift.Int
+  public func getAdHeight() -> Swift.Int
+  public func setAdCompletionListener(adCompletionListener: any Vmax.VmaxCarouselAdCompletionListener)
+  public func setAdFocus()
+  public func setAdOutOfFocus()
+  public func setAdIsDisplayedInCarousel(flag: Swift.Bool)
+  public func onAdLoaded()
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdGAMNative : ObjectiveC.NSObject, Vmax.VmaxAd {
   @objc deinit
   public func prepare(adResponse: Swift.String, delegate: any Vmax.VmaxAdDelegate)
@@ -105,6 +117,20 @@ extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.VmaxRefreshableAssetDelegate {
   public func onAdPaused()
   public func onAdResumed()
   public func onAdComplete()
+}
+extension VmaxGAMHelper.VmaxAdGAMNative : Vmax.VmaxCarouselAd, Vmax.VmaxCarouselAdCompletionListener {
+  public func isCardActive() -> Swift.Bool
+  public func swipeMode() -> Vmax.VmaxCarouselSwipeMode
+  public func isAdLoaded() -> Swift.Bool
+  public func getAdWidth() -> Swift.Int
+  public func getAdHeight() -> Swift.Int
+  public func setAdCompletionListener(adCompletionListener: any Vmax.VmaxCarouselAdCompletionListener)
+  public func setAdFocus()
+  public func setAdOutOfFocus()
+  public func setAdIsDisplayedInCarousel(flag: Swift.Bool)
+  public func onAdLoaded()
+  public func onAdCompleted()
+  public func onAdInteracted()
 }
 public protocol VmaxGAMLayout : Vmax.VmaxLayout {
   func set(delegate: (any VmaxGAMHelper.VmaxGAMLayoutDelegate)?)

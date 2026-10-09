@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZGV5tIoQcBXF3g1m4mHmIVBv7v0=
+		GW3qt7teMUsh1GvFD5MnEdhha+U=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PJFc1+zxR/OsO713H50cdDxEOqw=
+		LZ/pV5o9UQ9zVStnzHPhToKHPvQ=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		gTGm08X6g6IkgmPy5Zh1fXXfPRE=
+		iODgM/vyNjxYs2Asl52DtT2P5g0=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		bZ/PKtOcLaO+N0h4EGV7M3EscYA=
+		5jG7PCBr/tKH9XYxYhN00Mq1IQc=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		gTGm08X6g6IkgmPy5Zh1fXXfPRE=
+		iODgM/vyNjxYs2Asl52DtT2P5g0=
 		</data>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ute046O4dLQ7DRW1NNqt+8kT5GU=
+		tZs2O5xtgyMKWQEA6QtwxwVB7gE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,35 +65,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bXjk670qHCc7ActtjoIq4dFZ6Kw5fnuGIgjnT0ojYuo=
+			AVwDJT31aRartjcqGeAmQKExfvr8RK3/jgFEzcuFwp4=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7T1KEJsW6Fv/xOIxMEZTkoQoAzCsCzWeYh9vi5c4Tj4=
+			3mHNv5dXXpvoFzzbCgEtCrSA21TVN/qf8Ne4OMb7YVk=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ljJ0uEWCEQBT44W78xSVH9g0EOZ30ASJSmos4UMJ2ZU=
+			7e21ZnxhwIhe1PFmOCqQ1XzpNXs6uqN13gqiJkD7fdw=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7T1KEJsW6Fv/xOIxMEZTkoQoAzCsCzWeYh9vi5c4Tj4=
+			3mHNv5dXXpvoFzzbCgEtCrSA21TVN/qf8Ne4OMb7YVk=
 			</data>
 		</dict>
 		<key>Modules/VmaxGAMHelper.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			19JMQ12cNCi/I2886l/9IZAoDUQBS90IxME+cSH/znE=
+			BLRBXQEbvFRWPEf1IIB7jR5GJDBYHJoELl3qSRkFTi4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

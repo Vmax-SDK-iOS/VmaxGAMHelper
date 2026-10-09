@@ -1531,6 +1531,233 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCardActive",
+            "printedName": "isCardActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC12isCardActiveSbyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC12isCardActiveSbyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "swipeMode",
+            "printedName": "swipeMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselSwipeMode",
+                "printedName": "Vmax.VmaxCarouselSwipeMode",
+                "usr": "s:4Vmax0A17CarouselSwipeModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC9swipeMode0A00a13CarouselSwipeF0OyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC9swipeMode0A00a13CarouselSwipeF0OyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAdLoaded",
+            "printedName": "isAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC02isC6LoadedSbyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC02isC6LoadedSbyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdWidth",
+            "printedName": "getAdWidth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03getC5WidthSiyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03getC5WidthSiyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdHeight",
+            "printedName": "getAdHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03getC6HeightSiyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03getC6HeightSiyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdCompletionListener",
+            "printedName": "setAdCompletionListener(adCompletionListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselAdCompletionListener",
+                "printedName": "any Vmax.VmaxCarouselAdCompletionListener",
+                "usr": "s:4Vmax0A28CarouselAdCompletionListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03setC18CompletionListener02adfG0y0A00a8CarouselcfG0_p_tF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03setC18CompletionListener02adfG0y0A00a8CarouselcfG0_p_tF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdFocus",
+            "printedName": "setAdFocus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03setC5FocusyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03setC5FocusyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdOutOfFocus",
+            "printedName": "setAdOutOfFocus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03setC10OutOfFocusyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03setC10OutOfFocusyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdIsDisplayedInCarousel",
+            "printedName": "setAdIsDisplayedInCarousel(flag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC03setC21IsDisplayedInCarousel4flagySb_tF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC03setC21IsDisplayedInCarousel4flagySb_tF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMBannerC02onC6LoadedyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMBannerC02onC6LoadedyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1653,6 +1880,13 @@
             "printedName": "VmaxRefreshableAssetDelegate",
             "usr": "s:4Vmax0A24RefreshableAssetDelegateP",
             "mangledName": "$s4Vmax0A24RefreshableAssetDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxCarouselAd",
+            "printedName": "VmaxCarouselAd",
+            "usr": "s:4Vmax0A10CarouselAdP",
+            "mangledName": "$s4Vmax0A10CarouselAdP"
           }
         ]
       },
@@ -2419,6 +2653,276 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isCardActive",
+            "printedName": "isCardActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC12isCardActiveSbyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC12isCardActiveSbyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "swipeMode",
+            "printedName": "swipeMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselSwipeMode",
+                "printedName": "Vmax.VmaxCarouselSwipeMode",
+                "usr": "s:4Vmax0A17CarouselSwipeModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC9swipeMode0A00a13CarouselSwipeF0OyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC9swipeMode0A00a13CarouselSwipeF0OyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAdLoaded",
+            "printedName": "isAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC02isC6LoadedSbyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC02isC6LoadedSbyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdWidth",
+            "printedName": "getAdWidth()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC03getC5WidthSiyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC03getC5WidthSiyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdHeight",
+            "printedName": "getAdHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC03getC6HeightSiyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC03getC6HeightSiyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdCompletionListener",
+            "printedName": "setAdCompletionListener(adCompletionListener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxCarouselAdCompletionListener",
+                "printedName": "any Vmax.VmaxCarouselAdCompletionListener",
+                "usr": "s:4Vmax0A28CarouselAdCompletionListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC03setC18CompletionListener02adfG0y0A00a8CarouselcfG0_p_tF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC03setC18CompletionListener02adfG0y0A00a8CarouselcfG0_p_tF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdFocus",
+            "printedName": "setAdFocus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC03setC5FocusyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC03setC5FocusyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdOutOfFocus",
+            "printedName": "setAdOutOfFocus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC03setC10OutOfFocusyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC03setC10OutOfFocusyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdIsDisplayedInCarousel",
+            "printedName": "setAdIsDisplayedInCarousel(flag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC03setC21IsDisplayedInCarousel4flagySb_tF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC03setC21IsDisplayedInCarousel4flagySb_tF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC02onC6LoadedyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC02onC6LoadedyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdCompleted",
+            "printedName": "onAdCompleted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC02onC9CompletedyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC02onC9CompletedyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdInteracted",
+            "printedName": "onAdInteracted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxGAMHelper0A11AdGAMNativeC02onC10InteractedyyF",
+            "mangledName": "$s13VmaxGAMHelper0A11AdGAMNativeC02onC10InteractedyyF",
+            "moduleName": "VmaxGAMHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2541,6 +3045,20 @@
             "printedName": "VmaxRefreshableAssetDelegate",
             "usr": "s:4Vmax0A24RefreshableAssetDelegateP",
             "mangledName": "$s4Vmax0A24RefreshableAssetDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxCarouselAd",
+            "printedName": "VmaxCarouselAd",
+            "usr": "s:4Vmax0A10CarouselAdP",
+            "mangledName": "$s4Vmax0A10CarouselAdP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VmaxCarouselAdCompletionListener",
+            "printedName": "VmaxCarouselAdCompletionListener",
+            "usr": "s:4Vmax0A28CarouselAdCompletionListenerP",
+            "mangledName": "$s4Vmax0A28CarouselAdCompletionListenerP"
           }
         ]
       },
@@ -3478,7 +3996,7 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdAssetHelperGAMNative.swift",
       "kind": "BooleanLiteral",
-      "offset": 769,
+      "offset": 799,
       "length": 4,
       "value": "true"
     },
@@ -3505,15 +4023,29 @@
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
-      "kind": "StringLiteral",
-      "offset": 926,
-      "length": 8,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
       "kind": "StringLiteral",
-      "offset": 933,
+      "offset": 1034,
+      "length": 43,
+      "value": "\"Error: Google Mobile Ads(Banner) - \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Banner\/VmaxAdGAMBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
       "length": 10,
       "value": "\"\""
     },
@@ -3540,15 +4072,29 @@
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
-      "kind": "StringLiteral",
-      "offset": 942,
-      "length": 8,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
+      "kind": "BooleanLiteral",
+      "offset": 844,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 1130,
+      "length": 43,
+      "value": "\"Error: Google Mobile Ads(Native) - \""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxGAMHelper\/VmaxGAMHelper\/Source\/Native\/Billboard\/VmaxAdGAMNative.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
       "length": 10,
       "value": "\"\""
     },
